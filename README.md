@@ -10,7 +10,7 @@ PHP SDK for OpenStack/Rackspace APIs. Our official documentation is now availabl
 The PHP SDK should work with most OpenStack-based cloud deployments,
 though it specifically targets the Rackspace public cloud. In
 general, whenever a Rackspace deployment is substantially different
-than a pure OpenStack one, a separate Rackspace subclass is provided
+then a pure OpenStack one, a separate Rackspace subclass is provided
 so that you can still use the SDK with a pure OpenStack instance
 (for example, see the `OpenStack` class (for OpenStack) and the
 `Rackspace` subclass).
@@ -34,10 +34,10 @@ curl -sS https://getcomposer.org/installer | php
 php composer.phar require rackspace/php-opencloud
 ```
 
-Once you have installed the library, you will need to load Composer's autoloader (which registers all the required
+Once you have installed the library, you will need to load the Composer's autoloader (which registers all the required
 namespaces). To do this, place the following line of PHP code at the top of your application's PHP files:
 
-```php
+PHP
 require 'vendor/autoload.php';
 ```
 
